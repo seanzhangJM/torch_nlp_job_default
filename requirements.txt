@@ -1,0 +1,5 @@
+torch==1.8.1
+torchvision==0.9.1
+d2l==0.17.1
+jupyter==1.0.0
+pandas==1.2.2
