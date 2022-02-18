@@ -5,7 +5,8 @@
 # @Email   : YYDSPanda@163.com
 # @File    : bean.py
 # @Software: PyCharm
-
+import time
+import numpy as np
 from IPython import display
 from d2l import torch as d2l
 
@@ -30,7 +31,10 @@ class Accumulator:
 
 
 class Animator:
-    """动态训练中绘制数据"""
+    """
+    动态训练中绘制数据
+    这个类用到了d2l，d2l又有版本要求，可以不使用这个类。
+    """
 
     def __init__(self, xlabel=None, ylabel=None, legend=None, xlim=None,
                  ylim=None, xscale='linear', yscale='linear',
